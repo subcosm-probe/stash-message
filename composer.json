@@ -1,0 +1,21 @@
+{
+    "name": "subcosm-probe/stash-message",
+    "description": "Stash Message Component",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthias Kaschubowski",
+            "email": "nihylum@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "subcosm-probe/primitives": "~0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Singularity\\Http\\Stash\\": "./src"
+        }
+    }
+}
